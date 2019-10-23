@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "2fca668e-22f1-451b-8284-f33f5109efb3",
+		"name": "ARSW-AirportFinder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://cometari-airportsfinder-v1.p.rapidapi.com/api/airports/by-text?text=Berlin",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-host",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://cometari-airportsfinder-v1.p.rapidapi.com/api/airports/by-text?text=Berlin",
+					"protocol": "https",
+					"host": [
+						"cometari-airportsfinder-v1",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"airports",
+						"by-text"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "Berlin"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
